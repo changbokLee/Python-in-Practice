@@ -46,3 +46,31 @@ with open('./resource/review.txt', 'r') as f:
         print(line, end = '######')
         line = f.readline()
 
+# 예제6
+with open('./resource/review.txt', 'r') as f:
+    contents = f.readlines()
+    print(content)
+    for c in contents:
+        print(c, end = ' ********')
+
+
+
+
+
+
+
+#예제1
+with open('./resource/review.txt', 'w') as f:
+    f.write("niceman")
+
+# 예제 3
+from random import randint
+with open('./resource/txt2.txt', 'w') as f:
+        for cnt in range(6):
+            f.write(str(randint(1, 50)))
+            f.write('\n')
+
+# 예제4
+with open('./resource/text3.txt', 'w')as f:
+    list =['Kim\n', 'Park\n', 'Cho\n']
+    f.writelines(list)
