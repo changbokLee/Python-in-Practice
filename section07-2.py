@@ -47,3 +47,9 @@ print(WareHouse.__dict__) #클래스 네임스페이스 , 클래스 변수(공�
 print(user1.name)
 print(user2.name)
 print(user3.name)
+
+print(user1.stock_num)
+print(user2.stock_num)
+print(user3.stock_num)
+
+del user1
