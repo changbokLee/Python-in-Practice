@@ -52,6 +52,29 @@ with open('./resource/sample4.csv', 'w', newline= '')as f:
     wt = csv.writer(f)
     wt.writerows(w)
 
-    
+
+#XSL ,XLSX
+#openpyxl, xlsxwriter , xlrd ,xlwt ,xlutils
+#pandas를 주로 사용(openpyxl, xlrd)
+# pip install
+
+import pandas as pd
+
+xlsx = pd.read_excel('./resource/sample.xlsx')
+
+# 상위데이터 확인
+print(xlsx.head())
+print()
+
+#데이터 확인
+print(xlsx.tail())
+
+# 데이터 확인
+print(xlsx.shape) # 행,  열
+
+# 엑셀 or csv 다시쓰기
+xlsx.to_excel('./resource/result.xlsx', index = False)
+xlsx.to_csv('./resource/result.csv', index = False)
+
 
 
