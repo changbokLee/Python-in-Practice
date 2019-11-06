@@ -44,7 +44,3 @@ print(x +  y)
 
 name = ['Kim', 'Lee', 'Park']
 
-try: 
-    z = 'kim'
-    x = name.index(z)
-    print('{} Found it! in name'. format(z, x+1))
