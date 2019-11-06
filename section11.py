@@ -46,3 +46,12 @@ with open('./resource/sample3.csv', 'w', newline= '') as f:
 
     for v in w:
         wt.writerow(v)
+
+#예제 5
+with open('./resource/sample4.csv', 'w', newline= '')as f:
+    wt = csv.writer(f)
+    wt.writerows(w)
+
+    
+
+
