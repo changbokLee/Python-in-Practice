@@ -85,3 +85,12 @@ class M(B, A, Z):
 
 print(M.mro)
 print(A.mro())
+
+
+ws = wb.active
+ws['A1']  = 42
+ws.apppend([1,2,3])
+
+import datetime
+
+

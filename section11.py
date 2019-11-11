@@ -76,5 +76,3 @@ print(xlsx.shape) # 행,  열
 xlsx.to_excel('./resource/result.xlsx', index = False)
 xlsx.to_csv('./resource/result.csv', index = False)
 
-
-

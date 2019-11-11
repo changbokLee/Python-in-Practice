@@ -8,6 +8,3 @@ class BookReader:
         print (self.name + 'is readingBook!')
 
 
-class BookReader:
-    def__init__(self, name): # 클래스 초기화함수
-        self.name = name
